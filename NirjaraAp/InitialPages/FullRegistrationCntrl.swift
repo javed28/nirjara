@@ -154,7 +154,7 @@ class FullRegistrationCntrl: UIViewController,SSRadioButtonControllerDelegate {
 //        pickerView.delegate = self
 //        txtSampraday.inputView = pickerView
         
-        imgTopLogo.frame = CGRect(x:70,y:25,width:self.view.frame.width-140,height:150)
+        imgTopLogo.frame = CGRect(x:70,y:30,width:self.view.frame.width-140,height:150)
         
         txtFullName.frame = CGRect(x:20,y:imgTopLogo.frame.origin.y+self.imgTopLogo.frame.height,width:self.view.frame.width-40,height:45)
         txtUserName.frame = CGRect(x:20,y:txtFullName.frame.origin.y+self.txtFullName.frame.height+10,width:self.view.frame.width-40,height:45)
