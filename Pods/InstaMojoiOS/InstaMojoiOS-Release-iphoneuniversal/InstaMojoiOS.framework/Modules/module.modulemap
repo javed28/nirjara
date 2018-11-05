@@ -1,0 +1,8 @@
+framework module InstaMojoiOS{
+    export *
+}
+
+module InstaMojoiOS.Swift {
+    header "InstaMojoiOS-Swift.h"
+    requires objc
+}
